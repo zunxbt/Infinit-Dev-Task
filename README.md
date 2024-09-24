@@ -34,12 +34,6 @@
 [ -f "infinit.sh" ] && rm infinit.sh; curl -s -o infinit.sh https://raw.githubusercontent.com/zunxbt/Infinit-Dev-Task/main/infinit.sh && chmod +x infinit.sh && ./infinit.sh
 ```
 
-## Wallet Export
-- Once everything done, make sure to save the details of your wallet address from where u deployed the smart contract, use this command to get private Key of your wallet address
-```bash
-bunx infinit account export [Account ID]
-```
-
 ## Get `Early Contributor Role`
 
 - Take a screenshot like this 
