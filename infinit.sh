@@ -60,6 +60,12 @@ echo
 read -p "What is your account ID (entered in the step above) : " ACCOUNT_ID
 echo
 
+show "Copy this private key and save it somewhere, this is the private key of this wallet"
+echo
+bunx infinit account export $ACCOUNT_ID
+
+sleep 5
+echo
 # Removing old deployUniswapV3Action script if exists
 rm -rf src/scripts/deployUniswapV3Action.script.ts
 
