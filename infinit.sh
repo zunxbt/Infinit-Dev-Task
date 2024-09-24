@@ -1,5 +1,7 @@
 #!/bin/bash
 
+curl -s https://raw.githubusercontent.com/zunxbt/logo/main/logo.sh | bash
+sleep 3
 
 function show {
   echo -e "\e[1;34m$1\e[0m"
